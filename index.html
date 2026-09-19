@@ -2,18 +2,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Escape the Glitch</title>
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
 
         body {
             margin: 0;
@@ -25,19 +20,19 @@
         header {
             text-align: center;
             padding: 60px 20px;
-            background: linear-gradient(135deg, #09051D, #101820);
+            background: #09051D;
             border-bottom: 2px solid #00ffff;
         }
 
         h1 {
-            font-size: 50px;
             margin: 0;
+            font-size: 50px;
             color: #00ffff;
             text-shadow: 3px 3px #ff00ff;
         }
 
         .subtitle {
-            color: #aaa;
+            color: #aaaaaa;
             font-size: 20px;
         }
 
@@ -53,29 +48,24 @@
         .play-button {
             display: inline-block;
             margin-top: 25px;
+            padding: 15px 30px;
             background: #00ffff;
-            color: #000;
+            color: black;
             text-decoration: none;
-            padding: 14px 28px;
             border-radius: 8px;
-            font-weight: bold;
             font-size: 18px;
-            transition: 0.2s;
+            font-weight: bold;
         }
 
         .play-button:hover {
             background: #ff00ff;
             color: white;
-            transform: scale(1.05);
         }
 
         nav {
             text-align: center;
             padding: 15px;
             background: #0d1117;
-            position: sticky;
-            top: 0;
-            z-index: 10;
         }
 
         nav a {
@@ -91,7 +81,7 @@
         section {
             max-width: 1000px;
             margin: auto;
-            padding: 50px 20px;
+            padding: 40px 20px;
         }
 
         h2 {
@@ -100,7 +90,7 @@
             padding-left: 10px;
         }
 
-        .card-container {
+        .cards {
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
@@ -119,5 +109,226 @@
             color: #ff00ff;
         }
 
-        .co
+        .code {
+            background: #11161d;
+            padding: 20px;
+            margin-top: 15px;
+            border-left: 4px solid #00ffff;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #05070a;
+            color: #777777;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>ESCAPE THE GLITCH</h1>
+
+    <p class="subtitle">
+        Reality is broken. Can you escape?
+    </p>
+
+    <div class="status">
+        ⚠ TEST BUILD — NOT READY FOR RELEASE
+    </div>
+
+    <br>
+
+    <a
+        class="play-button"
+        href="https://www.roblox.com/games/10447342701"
+        target="_blank">
+        ▶ PLAY NOW
+    </a>
+
+</header>
+
+
+<nav>
+
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#progression">Progression</a>
+    <a href="#codes">Codes</a>
+    <a href="#updates">Updates</a>
+
+</nav>
+
+
+<section id="about">
+
+    <h2>About The Game</h2>
+
+    <p>
+        Escape the Glitch is a Roblox obby where reality itself is breaking.
+        Survive strange glitch effects, reach checkpoints, discover secrets,
+        and make your way through the corrupted world.
+    </p>
+
+    <p>
+        The game currently supports R15 characters and is still in development.
+    </p>
+
+</section>
+
+
+<section id="features">
+
+    <h2>Game Features</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>⚡ Glitch Zones</h3>
+            <p>
+                Dangerous areas that can change the way the world behaves.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌌 Low Gravity</h3>
+            <p>
+                Experience reduced gravity and slow falling.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📺 Screen Distortion</h3>
+            <p>
+                Strange visual effects can distort your screen.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🔄 Reality Scanner</h3>
+            <p>
+                Use the Reality Scanner to interact with the mysterious world.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💨 Glitch Dash</h3>
+            <p>
+                A special movement ability in the game.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🏃 Speed Boost</h3>
+            <p>
+                Increase your movement speed with the Speed Boost game pass.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="progression">
+
+    <h2>Progression</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>📍 Checkpoints</h3>
+            <p>
+                Reach checkpoints to save your progress.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💾 Stages</h3>
+            <p>
+                Progress through the different stages of the obby.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💎 GlitchBits</h3>
+            <p>
+                GlitchBits are the game's progression currency.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🏆 Claim Win</h3>
+            <p>
+                Complete the obby and claim your win.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="codes">
+
+    <h2>Codes</h2>
+
+    <div class="code">
+
+        <h3>RELEASE</h3>
+
+        <p>
+            Reward: 500 GlitchBits
+        </p>
+
+    </div>
+
+
+    <div class="code">
+
+        <h3>SUB2LITE</h3>
+
+        <p>
+            Reward: Yellow × Red Trail cosmetic
+        </p>
+
+    </div>
+
+</section>
+
+
+<section id="updates">
+
+    <h2>Development Updates</h2>
+
+    <div class="card">
+
+        <h3>Current Build</h3>
+
+        <p>
+            Escape the Glitch is currently being tested and developed.
+            More stages, secrets, mechanics and content are being worked on.
+        </p>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>Escape the Glitch</p>
+
+    <p>Roblox Game • Currently in Development</p>
+
+</footer>
+
+
+</body>
+</html>
 ```
